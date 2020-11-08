@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>人事管理系统</title>
+
+</head>
+<body data-type="generalComponents">
+        <div class="am-icon-list tpl-header-nav-hover-ico am-fl am-margin-right">
+
+        </div>
+
+
+
+        <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list tpl-header-list">
+            </ul>
+             <div class="am-topbar-brand" style="float: right;">
+             <a href="/pwd"> <font  color="black">&ensp; &ensp; 修改密码</font></a>
+             <a href="/logout"> <font  color="black">&ensp; &ensp; 登出</font></a>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+    <div class="tpl-page-container tpl-page-header-fixed">
+
+
+        <div class="tpl-left-nav tpl-left-nav-hover">
+            <div class="tpl-left-nav-title">
+                功能列表
+            </div>
+            <div class="tpl-left-nav-list">
+                <ul class="tpl-left-nav-menu">
+                    <li class="tpl-left-nav-item">
+                        <a href="/staff_index" class="nav-link active">
+                            <i class="am-icon-home"></i>
+                            <span>系统首页</span>
+                        </a>
+                    </li>
+                    <li class="tpl-left-nav-item">
+                        <a href="/staff_inf"  class="nav-link active">
+                            <i class="am-icon-bar-chart"></i>
+                            <span>个人信息</span>
+                        </a>
+                    </li>
+                    <li class="tpl-left-nav-item">
+                        <a href="/phone" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-bar-chart"></i>
+                            <span>修改电话号码</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<div class="tpl-content-wrapper">
+
+            <div class="tpl-portlet-components">
+                <div class="portlet-title">
+       <form class="am-form" method="post" action="/phone">
+                <fieldset>
+                    <div class="am-form-group">
+                        输入新的密码:<input type="text" class="" name="pwd" id="doc-ipt-email-1" >
+                    </div>
+                    <div class="am-form-group">
+                        确认新的密码:<input type="text" name="pwd1" class="" id="doc-ipt-pwd-1">
+                    </div>
+                    <p><button type="submit" class="am-btn am-btn-default">确定修改</button></p>
+                    <h2>{{get_flashed_messages()[0]}}</h2>
+                </fieldset>
+            </form>
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>
+
