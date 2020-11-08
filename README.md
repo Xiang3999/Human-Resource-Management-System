@@ -18,7 +18,7 @@
   - 处理结果集
   - 关闭连接
 
-![image-20200421185513955](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200421185513955.png)
+![image-20200421185513955](img/image-20200421185513955.png)
 
 ### web原理
 
@@ -179,8 +179,8 @@ conn.close()
    **这里是使用关键字来实现的，先验证账户是否存在，在验证密码是否正确，然后根据账号(即staff_id)来判断该用户的身份，如果是203号就返回HR的关键字然后有权限进入HR的页面，其他同理。**
 
    <table><tr>
-   <td><img src=https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200422000450773.png border=0></td>
-   <td><img src=https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200423113012688.png border=0></td>
+   <td><img src=img/image-20200422000450773.png border=0></td>
+   <td><img src=img/image-20200423113012688.png border=0></td>
    </tr></table>
 
 ### Day2_0423
@@ -328,7 +328,7 @@ def Hr_page():
             continue
 ```
 
-#### 问题：![image-20200423232855434](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200423232855434.png) 
+#### 问题：![image-20200423232855434](img/image-20200423232855434.png) 
 
 
 
@@ -375,7 +375,7 @@ Error: Failed to download metadata for repo 'epel-modular'
 
 但是我突然想到我的目的是安装Danjgo，在改了很多配置之后，居然又可以下载了。**这真的是我上网查资料的一种不好的习惯，特别容易忘记目的是什么，从一个链接跳跃到另外的链接，然后渐行渐远。。。**
 
-![image-20200430000753056](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200430000753056.png)
+![image-20200430000753056](img/image-20200430000753056.png)
 
 终于成功了！接下来还要接着学习使用Django
 
@@ -387,7 +387,7 @@ Error: Failed to download metadata for repo 'epel-modular'
 
 但是在运行时：libzeclient.so: cannot open shared object file: No such file or directory
 
-![image-20200519161104008](D:\ProgramData\Typora\image-20200519161104008.png)
+![image-20200519161104008](img/image-20200519161104008.png)
 
 GaussDB的python包出现问题，我以为是我先折腾Django时把他的依赖包给删除了，就有重装了数据库，结果后面发现是==环境变量的问题==：
 
@@ -418,38 +418,38 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/omm/python_gauss/CLIENT-PYTHON/exp
 
 ### 登陆界面
 
-![image-20200513122820937](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200513122820937.png)
+![image-20200513122820937](img/image-20200513122820937.png)
 
 ### HR界面
 
-![image-20200519153749410](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519153749410.png)
+![image-20200519153749410](img/image-20200519153749410.png)
 
-![image-20200519153944383](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519153944383.png)
+![image-20200519153944383](img/image-20200519153944383.png)
 
-![image-20200519154026287](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519154026287.png)
+![image-20200519154026287](img/image-20200519154026287.png)
 
-![image-20200519154159120](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519154159120.png)
+![image-20200519154159120](img/image-20200519154159120.png)
 
-![image-20200519154309778](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519154309778.png)
+![image-20200519154309778](img/image-20200519154309778.png)
 
-![image-20200519154454149](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519154454149.png)
+![image-20200519154454149](img/image-20200519154454149.png)
 
 ### 员工界面
 
-![image-20200519155357255](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519155357255.png)
+![image-20200519155357255](img/image-20200519155357255.png)
 
-![image-20200519155416363](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519155416363.png)
+![image-20200519155416363](img/image-20200519155416363.png)
 
-![image-20200519155450967](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519155450967.png)
+![image-20200519155450967](img/image-20200519155450967.png)
 
-![image-20200519155534343](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519155534343.png)
+![image-20200519155534343](img/image-20200519155534343.png)
 
-![image-20200519155559545](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519155559545.png)
+![image-20200519155559545](img/image-20200519155559545.png)
 
 ### 部门老总
 
-![image-20200519155659140](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519155659140.png)
+![image-20200519155659140](img/image-20200519155659140.png)
 
-![image-20200519155719358](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519155719358.png)
+![image-20200519155719358](img/image-20200519155719358.png)
 
-![image-20200519165426202](https://picgo-w.oss-cn-chengdu.aliyuncs.com/img/image-20200519165426202.png)
+![image-20200519165426202](img/image-20200519165426202.png)
